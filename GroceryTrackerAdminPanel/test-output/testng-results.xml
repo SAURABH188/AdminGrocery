@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-28T16:24:23 IST" name="Default suite" finished-at="2024-08-28T16:24:31 IST" duration-ms="8095">
+    <groups>
+    </groups>
+    <test started-at="2024-08-28T16:24:23 IST" name="Default test" finished-at="2024-08-28T16:24:31 IST" duration-ms="8095">
+      <class name="saurabhkumbhar.GroceryTrackerAdminPanel.Login">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:saurabhkumbhar.GroceryTrackerAdminPanel.Login@649725e3]" started-at="2024-08-28T16:24:23 IST" name="setUp" finished-at="2024-08-28T16:24:30 IST" duration-ms="6905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Loginpagedisplay()[pri:1, instance:saurabhkumbhar.GroceryTrackerAdminPanel.Login@649725e3]" started-at="2024-08-28T16:24:30 IST" name="Loginpagedisplay" finished-at="2024-08-28T16:24:30 IST" duration-ms="535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loginpagedisplay -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:saurabhkumbhar.GroceryTrackerAdminPanel.Login@649725e3]" started-at="2024-08-28T16:24:31 IST" name="teardown" finished-at="2024-08-28T16:24:31 IST" duration-ms="483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- saurabhkumbhar.GroceryTrackerAdminPanel.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
