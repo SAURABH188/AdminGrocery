@@ -43,7 +43,7 @@ public class Homepage {
 	Homepage.isDisplayed();
 	Thread.sleep(500);
 	Thread.sleep(500);
-		 
+	Thread.sleep(500); 
 	 }
  @Test(priority = 2)
  public void testTotalUsersCard() {
