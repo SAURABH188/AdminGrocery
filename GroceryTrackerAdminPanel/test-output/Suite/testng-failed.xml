@@ -5,26 +5,45 @@
     <classes>
       <class name="saurabhkumbhar.GroceryTrackerAdminPanel.User">
         <methods>
-          <include name="testGender"/>
-          <include name="testDietType"/>
-          <include name="testHoursSpentOnCooking"/>
           <include name="testUserMobileNo"/>
-          <include name="setUp"/>
-          <include name="testNumberOfChildren"/>
+          <include name="testHoursSpentOnCooking"/>
+          <include name="testUserMobileNumberIsCorrect"/>
           <include name="testUserAddress"/>
-          <include name="testCreatedAtt"/>
-          <include name="teardown"/>
-          <include name="testFamilyOnDiet"/>
-          <include name="testOnDiet"/>
+          <include name="testUserSubscriptionStatusIsCorrect"/>
           <include name="testAge"/>
+          <include name="testUserSubscription"/>
+          <include name="testNumberOfUsersDisplayed"/>
           <include name="testBudget"/>
           <include name="testUserEmail"/>
+          <include name="testEditButtonIsDisplayed"/>
           <include name="testLikeCooking"/>
+          <include name="testUserAddressIsCorrect"/>
           <include name="EditUserDetail1"/>
-          <include name="testNumberOfAdults"/>
+          <include name="testUserNameIsCorrect"/>
+          <include name="testSearchInputType"/>
           <include name="testCreatedAt"/>
           <include name="testPreferredFood"/>
+          <include name="testPlanValidity"/>
+          <include name="testSearchInputPlaceholder"/>
+          <include name="testSearchInputDefaultValue"/>
+          <include name="testUserEmailIsCorrect"/>
+          <include name="testGender"/>
+          <include name="testDietType"/>
+          <include name="testUserProfileImageIsDisplayed"/>
+          <include name="setUp"/>
+          <include name="testNumberOfChildren"/>
+          <include name="testSearchInputIsDisplayed"/>
+          <include name="testCreatedAtt"/>
+          <include name="teardown"/>
+          <include name="testOnDiet"/>
+          <include name="testFamilyOnDiet"/>
+          <include name="testSearchInputIsEnabled"/>
+          <include name="testDeleteButtonIsDisplayed"/>
+          <include name="testProfileImage"/>
+          <include name="testUserTableIsDisplayed"/>
+          <include name="testNumberOfAdults"/>
           <include name="testUserName"/>
+          <include name="testSearchInputCssClass"/>
           <include name="testLastUpdate"/>
         </methods>
       </class> <!-- saurabhkumbhar.GroceryTrackerAdminPanel.User -->
