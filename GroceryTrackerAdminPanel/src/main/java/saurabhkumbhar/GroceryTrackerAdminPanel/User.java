@@ -3,7 +3,9 @@ package saurabhkumbhar.GroceryTrackerAdminPanel;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 import static org.testng.Assert.assertEquals;
+
 import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -17,7 +19,7 @@ public class User {
 	private WebDriver driver;
     private String baseUrl = "https://grocery-admin-panel-rose.vercel.app/#/";
 
-	
+
 	@BeforeMethod
 	  //TEST CASE NO 1
 	  		public void setUp() {
@@ -35,7 +37,7 @@ public class User {
 	  	driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
   	    WebElement Users = driver.findElement(By.cssSelector("a[href='#/admin/users']"));
   	     Users.click();
-  	      driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS); 
+  	      driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 	  }
 	 @AfterMethod
 	public void teardown() {
