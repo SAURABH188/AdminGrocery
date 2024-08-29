@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-29T09:47:22 IST" name="Default suite" finished-at="2024-08-29T09:47:31 IST" duration-ms="9616">
+  <suite started-at="2024-08-29T10:12:40 IST" name="Default suite" finished-at="2024-08-29T10:12:50 IST" duration-ms="10760">
     <groups>
     </groups>
-    <test started-at="2024-08-29T09:47:22 IST" name="Default test" finished-at="2024-08-29T09:47:31 IST" duration-ms="9616">
+    <test started-at="2024-08-29T10:12:40 IST" name="Default test" finished-at="2024-08-29T10:12:50 IST" duration-ms="10760">
       <class name="saurabhkumbhar.GroceryTrackerAdminPanel.Products">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:saurabhkumbhar.GroceryTrackerAdminPanel.Products@4e76dac]" started-at="2024-08-29T09:47:22 IST" name="setUp" finished-at="2024-08-29T09:47:28 IST" duration-ms="6633" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:saurabhkumbhar.GroceryTrackerAdminPanel.Products@5d465e4b]" started-at="2024-08-29T10:12:40 IST" name="setUp" finished-at="2024-08-29T10:12:47 IST" duration-ms="6880" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testSearchButtonVisibility()[pri:0, instance:saurabhkumbhar.GroceryTrackerAdminPanel.Products@4e76dac]" started-at="2024-08-29T09:47:28 IST" name="testSearchButtonVisibility" finished-at="2024-08-29T09:47:29 IST" duration-ms="426" status="PASS">
+        <test-method signature="testSuccessButtonClick()[pri:0, instance:saurabhkumbhar.GroceryTrackerAdminPanel.Products@5d465e4b]" started-at="2024-08-29T10:12:47 IST" name="testSuccessButtonClick" finished-at="2024-08-29T10:12:50 IST" duration-ms="3481" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSearchButtonVisibility -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:saurabhkumbhar.GroceryTrackerAdminPanel.Products@4e76dac]" started-at="2024-08-29T09:47:29 IST" name="teardown" finished-at="2024-08-29T09:47:31 IST" duration-ms="2465" status="PASS">
+        </test-method> <!-- testSuccessButtonClick -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:saurabhkumbhar.GroceryTrackerAdminPanel.Products@5d465e4b]" started-at="2024-08-29T10:12:50 IST" name="teardown" finished-at="2024-08-29T10:12:50 IST" duration-ms="308" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

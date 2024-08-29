@@ -7,7 +7,7 @@
         <methods>
           <include name="teardown"/>
           <include name="setUp"/>
-          <include name="testProductsHeaderVisibility"/>
+          <include name="testFirstRowData"/>
         </methods>
       </class> <!-- saurabhkumbhar.GroceryTrackerAdminPanel.Products -->
     </classes>

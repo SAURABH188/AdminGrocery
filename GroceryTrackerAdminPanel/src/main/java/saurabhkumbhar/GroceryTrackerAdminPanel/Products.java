@@ -1,5 +1,8 @@
 package saurabhkumbhar.GroceryTrackerAdminPanel;
 
+import static org.junit.Assert.assertNotNull;
+import static org.testng.Assert.assertEquals;
+
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -91,5 +94,29 @@ public class Products {
 	        WebElement searchButton = driver.findElement(By.cssSelector(".input-group-text"));
 	        Assert.assertTrue(searchButton.isDisplayed());
 	    }
+	    @Test(alwaysRun = true)
+	    //Test Case 8
+	    public void testTablePresence() {
+	        WebElement table = driver.findElement(By.cssSelector("table.table"));
+	        assertNotNull("Table should be present", table);
+	    }
+	    
+	   
+	    @Test(alwaysRun = true)
+	    //Test Case 9
+	    public void testSuccessButtonClick() throws InterruptedException {
+	        WebElement successButton = driver.findElement(By.xpath("//*[@id=\"root\"]/div/div[3]/div[1]/div/div[1]/div[2]/div/table/tbody/tr[1]/td[5]/button[1]"));
+	        successButton.click();
+	        Thread.sleep(3000);
+	      
+	    }
+
+	    @Test(alwaysRun = true)
+	    //Test Case 10
+	    public void testDangerButtonClick() {
+	        WebElement dangerButton = driver.findElement(By.xpath("//*[@id=\"root\"]/div/div[3]/div[1]/div/div[1]/div[2]/div/table/tbody/tr[1]/td[5]/button[2]"));
+	        dangerButton.click();
+	    }
+	   
 
 }
