@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="saurabhkumbhar.GroceryTrackerAdminPanel.User">
+        <methods>
+          <include name="testGender"/>
+          <include name="testDietType"/>
+          <include name="testHoursSpentOnCooking"/>
+          <include name="testUserMobileNo"/>
+          <include name="setUp"/>
+          <include name="testNumberOfChildren"/>
+          <include name="testUserAddress"/>
+          <include name="testCreatedAtt"/>
+          <include name="teardown"/>
+          <include name="testFamilyOnDiet"/>
+          <include name="testOnDiet"/>
+          <include name="testAge"/>
+          <include name="testBudget"/>
+          <include name="testUserEmail"/>
+          <include name="testLikeCooking"/>
+          <include name="EditUserDetail1"/>
+          <include name="testNumberOfAdults"/>
+          <include name="testCreatedAt"/>
+          <include name="testPreferredFood"/>
+          <include name="testUserName"/>
+          <include name="testLastUpdate"/>
+        </methods>
+      </class> <!-- saurabhkumbhar.GroceryTrackerAdminPanel.User -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
