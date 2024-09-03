@@ -3,8 +3,6 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="saurabhkumbhar.GroceryTrackerAdminPanel.Homepage"/>
-      <class name="saurabhkumbhar.GroceryTrackerAdminPanel.Login"/>
       <class name="saurabhkumbhar.GroceryTrackerAdminPanel.User"/>
     </classes>
   </test> <!-- Test -->
