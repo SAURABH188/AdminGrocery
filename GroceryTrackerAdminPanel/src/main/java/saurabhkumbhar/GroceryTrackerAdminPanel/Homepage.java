@@ -1,6 +1,6 @@
 package saurabhkumbhar.GroceryTrackerAdminPanel;
 
-import java.util.concurrent.TimeUnit;
+import java.time.Duration;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -15,35 +15,35 @@ public class Homepage {
 	private WebDriver driver;
     private String baseUrl = "https://grocery-admin-panel-rose.vercel.app/#/";
 
-	
+
 	@BeforeMethod
 	  //TEST CASE NO 1
 	  		public void setUp() {
-			  System.setProperty("webdriver.chrome.driver", "C:\\Users\\SAURABH\\Downloads\\chromedriver-win64 (3)\\chromedriver-win64\\chromedriver.exe");
+			  System.setProperty("webdriver.chrome.driver", "C:\\Users\\Arsheen Khan\\Selenium_Auto\\javabykiran-Selenium-Softwares (2)\\javabykiran-Selenium-Softwares\\Chrome Drivers\\chromedriver-win64 (3)\\chromedriver-win64");
 	        driver = new ChromeDriver();
 	        driver.get(baseUrl);
 	  			  driver.manage().window().maximize();
-	  			 driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
+	  			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	  	    WebElement Email = driver.findElement(By.cssSelector("#text"));
 	  	    WebElement Password = driver.findElement(By.cssSelector("#password"));
 	  	    WebElement SignIn = driver.findElement(By.cssSelector("button[type='submit']"));
 	  	  Email.sendKeys("admin@admin.com");
 	  	Password.sendKeys("12345678");
 	  	SignIn.click();
-	 
+
 	  }
 	 @AfterMethod
 	public void teardown() {
 		  driver.close();
 	}
  @Test(priority = 1)
-	 
+
 	 public void Homepagedisplay() throws InterruptedException {
 	WebElement Homepage = driver.findElement(By.cssSelector("body > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > h3:nth-child(1)"));
 	Homepage.isDisplayed();
 	Thread.sleep(500);
 	Thread.sleep(500);
-	Thread.sleep(500); 
+	Thread.sleep(500);
 	//New COmmit
 	Thread.sleep(500);
 	 }
@@ -73,7 +73,7 @@ public class Homepage {
 
  @Test(priority = 6)
  public void testMoreInfoLinks() {
-	 	driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+	 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
      WebElement moreInfoUsers = driver.findElement(By.xpath("//*[@id=\"root\"]/div/div[3]/div[1]/div/div/div[1]/div[3]"));
      moreInfoUsers.isDisplayed();
 
